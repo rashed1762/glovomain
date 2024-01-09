@@ -1,0 +1,349 @@
+.logo{
+    max-width: 119px;
+}
+.navbar{
+    background-color: #ffc244;
+}
+.btnnav{
+    font-size: 14px;
+    font-weight: 700;
+    height: 44px;
+    background-color: #00a082;
+    border-radius: 50px;
+    width: 150px;
+    color: white;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1style{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.Herosection{
+    background:#ffc244 ;
+    padding: 50px;
+    justify-content: center
+}
+.heroinfo{
+    margin-top: 80px;
+}
+.Herosection-banner2{
+    width: 100%;
+}
+.Herosection-bannerh1{
+    word-wrap: anywhere;
+    color: var(--helio-color-primaryText);
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.07;
+    margin: var(--helio-space-XL) 0;
+}
+.Herosection-btnsearch{
+    width: 60px;
+    background: #00a082;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    color: aliceblue;
+    
+}
+.Herosection-search{
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 540px;
+    width: 100%;
+    height: 50px;
+    color: #c1c1c1;
+    padding: 0px 12px;
+    font-size: 15px;
+
+}
+
+/* topresturantcss start  */
+.item{
+    max-width: 428px;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size:var(--helio-color-primaryText);
+}
+.item img{
+
+   width: 400px;
+   height: 100%;
+   position: relative;
+}
+.info .btn{
+    position: absolute;
+    bottom: 2%;
+    left: 18%;
+    background: #ffc244;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.one{
+    -webkit-mask-image:url(	data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCA1NSwgMjI1LjM5LCAwLjg2KSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDIzNS43MTgsIDE2Mi4zODQsIDQxLjMzOCwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjMuMiwtMTguOEMyOC43LC0xMS41LDMxLC0yLDMwLjEsOC44QzI5LjIsMTkuNSwyNSwzMS40LDE2LjYsMzUuOUM4LjMsNDAuNSwtNC4zLDM3LjgsLTE1LjEsMzIuM0MtMjUuOCwyNi43LC0zNC44LDE4LjQsLTM2LjYsOC44Qy0zOC41LC0wLjgsLTMzLjIsLTExLjUsLTI1LjksLTE5LjJDLTE4LjYsLTI3LC05LjMsLTMxLjYsLTAuMywtMzEuNEM4LjgsLTMxLjIsMTcuNiwtMjYuMSwyMy4yLC0xOC44WiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIiBzdHJva2Utd2lkdGg9IjAiIHN0eWxlPSJ0cmFuc2l0aW9uOiBhbGwgMC4zcyBlYXNlIDBzOyIgc3Ryb2tlPSJ1cmwoI3N3LWdyYWRpZW50KSI+PC9wYXRoPgogICAgICAgICAgICAgIDwvc3ZnPg==);
+}
+.card{
+    border: none;
+    
+}
+.topresturant{
+    background: var(--helio-color-softGlobalBackground);
+    border-radius: var(--helio-space-L);
+    color: var(--helio-color-primaryText);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: var(--helio-space-S) var(--helio-space-XL);
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+.topresturant-h1{
+    box-sizing: border-box;
+    color: var(--helio-color-primaryText);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 auto;
+    margin: var(--helio-space-XL) auto;
+    max-width: calc(1124px + 15%);
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+    width: 100%;
+}
+/* topresturantcss end  */
+
+
+.delivered-h1{
+    box-sizing: border-box;
+    color: var(--helio-color-primaryText);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 auto;
+    margin: var(--helio-space-XL) auto;
+    max-width: calc(1124px + 15%);
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+    width: 100%;
+}
+.delivered-h2{
+    color: var(--helio-color-primaryText);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 var(--helio-space-XS);
+    text-align: center;
+}
+.delivered-p{
+    color: var(--helio-color-primaryText);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+    margin-top: 20px;
+}
+.delivered-p-span{
+    color: marktext;
+    background-color: #ffc244;
+    border-radius: 50px;
+}
+.delivered{
+    box-sizing: border-box;
+    color: var(--helio-color-primaryText);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 auto;
+    margin: var(--helio-space-XL) auto;
+    max-width: calc(1124px + 15%);
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+}
+.deliverdbtn{
+    font-size: 14px;
+    font-weight: 700;
+    height: 44px;
+    background-color: #00a082;
+    border-radius: 50px;
+    width: 150px;
+    color: white;
+    margin: 0 auto;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    min-width: 308px;
+    white-space: nowrap;
+    
+    border: none;
+    
+    
+}
+
+
+.counties-part{
+    background: url(https://glovoapp.com/images/landing/waves/landing-links-waves-desktop.svg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.courfooter{
+    width: 100%;
+}
+.courpart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.countrylist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.countrylist2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.countrylist3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.countrylist4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.countrylink{
+    background-color: #fff3da;
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 4px 16px;
+    margin: 4px;
+    
+}
+
+
+.imglogo{
+    margin-top: 240px;
+}
+
+
+.do-it{
+    background: #e9f8f5;
+    height: auto;
+    
+   
+}
+.do-it-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.do-it-h1 h1{
+    margin-top: 30px;
+}
+.do-it-topimg{
+    background: url(https://glovoapp.com/images/landing/waves/corporate-wave-desktop.svg);
+    height: 90px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.topimg-doit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doitimg{
+    margin-top: 20px;
+}
+.cardpart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    
+}
+.cardstyle{
+    background: none;
+}
+.footerimg2{
+    
+    
+}
+
+
+
+
+
+.footer-part{
+    background-color: #1d1d1d;
+}
+.footer-head{
+    color: white;
+    margin-left:80px;
+    margin-right: 80px;
+}
+.div2{
+    margin-top: 118px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    margin-left:80px;
+    margin-right: 80px;
+
+}
+.footerimg{
+    width: 100%;
+    bottom: 0;
+}
+/* .footerlogo{
+    margin-left: 300px;
+    max-width: 119px;
+} */
+.topresturant{
+    box-sizing: border-box;
+    color: var(--helio-color-primaryText);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 auto;
+    margin: var(--helio-space-XL) auto;
+    max-width: calc(1124px + 15%);
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+    width: 100%;
+}
+
+.footersection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
