@@ -346,4 +346,14 @@
     align-items: center;
     justify-content: center;
 }
-
+.fotter2ndimg{
+    margin-top: 10px;
+}
+.delivary{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
