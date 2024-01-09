@@ -280,6 +280,20 @@
 .doitimg{
     margin-top: 20px;
 }
+.doitbtn{
+    font-size: 18px;
+    font-weight: 700;
+    height: 44px;
+    background-color: #00a082;
+    border-radius: 50px;
+    width: 170px;
+    color: white;
+    margin: 0 auto;
+   
+    white-space: nowrap;
+    
+    border: none;
+}
 .cardpart{
     display: flex;
     align-items: center;
